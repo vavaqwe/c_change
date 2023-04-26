@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">curva_XD</string>
+    <string name="KISH">КИШ</string>
+    <string name="ghrome">Browser</string>
+    <string name="diskord">Discord</string>
+    <string name="off">Off</string>
+    <string name="reboot">Reboot</string>
+    <string name="txt">Чо делаешь?</string>
+    <string name="scan">QR сканнер</string>
+    <string name="IP">Write IP</string>
+    <string name="qr">Qr code</string>
+    <string name="qrc">Write</string>
+    <string name="game">Game</string>
+    <string name="write">Write</string>
+    <string name="write_site">Write site</string>
+    <string name="anime">Open youtube</string>
+    <string name="animetxt">Write youtube</string>
+    <string name="back">Back to Main</string>
+    <string name="texts">Интернет</string>
+    <string name="butns">Компьютер</string>
+    <string name="select">Применить</string>
+    <string name="site">Open site</string>
+    <string name="volume">0</string>
+    <string name="name_game">Изменить имя кнопок</string>
+</resources>

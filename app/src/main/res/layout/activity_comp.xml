@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/txt4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_internet">
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="263dp"
+        android:layout_height="162dp"
+        android:layout_marginTop="84dp"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.43"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_kish" />
+
+    <Button
+        android:id="@+id/btn_browser"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="28dp"
+        android:text="@string/ghrome"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/btn_kish"
+        app:layout_constraintTop_toBottomOf="@+id/btn_yt"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_kish"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="72dp"
+        android:text="@string/KISH"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yt_txt"
+        tools:ignore="MissingConstraints,VisualLintBounds" />
+
+    <Button
+        android:id="@+id/back_to_main2"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="124dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/back"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints,TextSizeCheck" />
+
+    <Button
+        android:id="@+id/btn_site"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="28dp"
+        android:text="@string/site"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/site_txt"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="29dp"
+        android:autofillHints=""
+        android:background="@drawable/rouder_corner"
+        android:backgroundTint="#85A8ED"
+        android:elevation="1pt"
+        android:ems="10"
+        android:hint="@string/write_site"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textAllCaps="true"
+        app:layout_constraintEnd_toStartOf="@+id/btn_site"
+        app:layout_constraintHorizontal_bias="0.013"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt2" />
+
+    <EditText
+        android:id="@+id/yt_txt"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="49dp"
+        android:autofillHints=""
+        android:background="@drawable/rouder_corner"
+        android:backgroundTint="#85A8ED"
+        android:elevation="1pt"
+        android:ems="10"
+        android:hint="@string/animetxt"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textAllCaps="true"
+        app:layout_constraintEnd_toStartOf="@+id/btn_yt"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/site_txt"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_yt"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="28dp"
+        android:text="@string/anime"
+        android:textSize="9sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_site"
+        tools:ignore="MissingConstraints,SmallSp" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="223dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/txt"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
