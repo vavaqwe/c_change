@@ -1,6 +1,6 @@
 # с_cange
 
-[Приложение для компьютера]([https://github.com/vavaqwe/curvva])
+[Приложение для компьютера](https://github.com/vavaqwe/c_chandes)
 ## Основные функции
 
 - Подключение к серверу на компьютере.
